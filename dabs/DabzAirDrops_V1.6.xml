@@ -1,0 +1,619 @@
+   
+
+   <!-- ++ <( Good Game )> +++++++++++++++ -->
+<!-- ++ <( Discord.gg/thegcode )> +++++ -->
+
+<!-- ++ <( events.xml )> +++++++++++++++ -->
+
+	<event name="Static_DabzAirDrop_V1_6">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>1800</lifetime>
+        <restock>3600</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>500</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children/>
+    </event>
+	
+<!-- ++ <( eventspawns.xml )> +++++++++++++++ -->
+
+    <event name="Static_DabzAirDrop_V1_6">
+        <!-- Altar  -->
+		<pos x="8101.49" y="459.818" z="9302.39" a="0" group="AirDrops_V1_6"/>
+        <!-- MB Kamensk  -->
+		<pos x="7999.17" y="340.344" z="14633.3" a="0" group="AirDrops_V1_6"/>
+        <!-- Tisy  -->
+		<pos x="1800.59" y="437.342" z="13810.6" a="0" group="AirDrops_V1_6"/>
+        <!-- NWAF  -->
+		<pos x="4096.85" y="339.968" z="10871.5" a="0" group="AirDrops_V1_6"/>
+        <!-- NEAF  -->
+		<pos x="12126.5" y="140.968" z="12570.9" a="0" group="AirDrops_V1_6"/>
+        <!-- Balota  -->
+		<pos x="5000.65" y="10.4684" z="2475.78" a="0" group="AirDrops_V1_6"/>
+        <!-- Prison  -->
+		<pos x="2668.84" y="8.82423" z="1520.68" a="0" group="AirDrops_V1_6"/>
+        <!--  Pavlovo  -->
+		<pos x="2126.16" y="92.6669" z="3363.36" a="0" group="AirDrops_V1_6"/>
+        <!--  Green Mountain  -->
+		<pos x="3724.74" y="402.858" z="5969.28" a="0" group="AirDrops_V1_6"/>
+        <!-- Myshkino West Tents -->
+		<pos x="1093.37" y="185.704" z="7365.55" a="0" group="AirDrops_V1_6"/>
+	</event>
+	
+<!-- ++ <( eventgroups.xml )> +++++++++++++++ -->
+
+    <group name="AirDrops_V1_6">
+       <child type="StaticObj_Misc_WoodenCrate_5x"        deloot="1" lootmax="40" lootmin="40"  x="0.0" z="0.0" a="0" y="0.0" />
+       <child type="StaticObj_ShellCrater2_Large"         spawnsecondary="false"      x="0.0" z="0.0" a="0" y="-2.220270"/>
+       <child type="StaticObj_Dead_pile2"                 spawnsecondary="false"      x="0" z="0" a="0" y="-0.829071"/>
+       <child type="Land_Wreck_C130J"                     spawnsecondary="false"      x="-100" z="-100" a="45" y="150"/>
+       <child type="Wreck_Mi8_Crashed"                    spawnsecondary="false"      x="0.0" y="-6.35" z="3.0" a="0" />
+       <child type="StaticObj_ammoboxes_stacked"          spawnsecondary="false"      x="0.0" y="-5" z="0.0" a="0" />
+        <child type="ZmbF_PoliceWomanNormal"       spawnsecondary="false" x="4.819573" y="2.877510"  z="-1.990172" a="0" />
+        <child type="ZmbM_PatrolNormal_Flat"         spawnsecondary="false" x="-1.896772" y="2.925407" z="-7.880795" a="0" />
+        <child type="ZmbM_PatrolNormal_PautRev"      spawnsecondary="false" x="0.048921" y="2.635679"  z="-5.551909" a="0" />
+        <child type="ZmbM_PatrolNormal_Summer"       spawnsecondary="false" x="-2.577866" y="2.649820" z="-4.541931" a="0" />
+        <child type="ZmbM_SoldierNormal"             spawnsecondary="false" x="-3.690326" y="2.992659" z="4.015018" a="0" />
+        <child type="ZmbF_ParamedicNormal_Blue"   spawnsecondary="false" x="-1.679380" y="3.112904" z="5.698620" a="0" />
+        <child type="ZmbM_usSoldier_normal_Woodland" spawnsecondary="false" x="3.655470" y="3.042252"  z="4.790529" a="0" />
+        <child type="ZmbM_MechanicSkinny_Green"   spawnsecondary="false" x="2.668413" y="3.045506"  z="-5.111663" a="0" />
+        <child type="ZmbM_usSoldier_Heavy_Woodland"  spawnsecondary="false" x="-5.839575" y="3.119806" z="-4.722896" a="0" />
+        <child type="ZmbM_usSoldier_Officer_Desert"  spawnsecondary="false" x="-4.528292" y="3.001904" z="1.354603" a="0" />
+        <child type="ZmbM_DoctorFat"       spawnsecondary="false" x="-4.445727" y="2.695278" z="-1.900266" a="0" />
+        <child type="ZmbM_PolicemanSpecForce"         spawnsecondary="false" x="4.732937" y="2.677906"  z="1.281698" a="0" />
+        <child type="ZmbM_PatrolNormal_PautRev"      spawnsecondary="false" x="-6.966328" y="3.070288" z="-0.271603" a="0" />
+        <child type="ZmbM_PatrolNormal_Summer"       spawnsecondary="false" x="-6.481400" y="2.788120" z="3.555200" a="0" />
+        <child type="ZmbM_SoldierNormal"             spawnsecondary="false" x="-4.436051" y="2.654131" z="6.959849" a="0" />
+        <child type="ZmbM_usSoldier_normal_Desert"   spawnsecondary="false" x="-0.810740" y="2.801926" z="9.062542" a="0" />
+        <child type="ZmbM_usSoldier_normal_Woodland" spawnsecondary="false" x="4.143526" y="2.931083"  z="8.714361" a="0" />
+        <child type="ZmbM_usSoldier_normal_Desert"   spawnsecondary="false" x="2.329266" y="2.679864"  z="-8.855832" a="0" />
+        <child type="ZmbM_usSoldier_Heavy_Woodland"  spawnsecondary="false" x="6.807852" y="2.639781"  z="-6.652485" a="0" />
+        <child type="ZmbM_usSoldier_Officer_Desert"  spawnsecondary="false" x="7.993719" y="2.954273"  z="-0.467935" a="0" />
+        <child type="ZmbM_PatrolNormal_Autumn"       spawnsecondary="false" x="7.283717" y="3.002240"  z="4.883878" a="0" />
+        <child type="ZmbM_priestPopSkinny"         spawnsecondary="false" x="-7.097763" y="2.555585" z="6.692166" a="0" />
+        <child type="ZmbM_ParamedicNormal_Blue"      spawnsecondary="false" x="-8.949108" y="2.968736" z="2.070924" a="0" />
+        <child type="ZmbM_PatrolNormal_Summer"       spawnsecondary="false" x="-9.007416" y="3.026107" z="-3.506013" a="0" />
+        <child type="ZmbM_SoldierNormal"             spawnsecondary="false" x="-5.618272" y="2.761640" z="-8.386567" a="0" />
+        <child type="ZmbM_usSoldier_normal_Desert"   spawnsecondary="false" x="-0.366715" y="2.555555" z="-11.820847" a="0" />
+        <child type="ZmbM_usSoldier_normal_Woodland" spawnsecondary="false" x="6.656930" y="2.682725"  z="-11.397171" a="0" />
+        <child type="ZmbM_usSoldier_normal_Desert"   spawnsecondary="false" x="10.744619" y="3.008659" z="-4.485026" a="0" />
+        <child type="ZmbM_ParamedicNormal_Red"  spawnsecondary="false" x="11.421869" y="2.882215" z="2.671234" a="0" />
+        <child type="ZmbM_usSoldier_Officer_Desert"  spawnsecondary="false" x="8.025189" y="2.565280"  z="9.016003" a="0" />
+        <child type="ZmbM_PatrolNormal_Autumn" spawnsecondary="false" x="1.636949" y="2.953765"  z="12.423946" a="0" />
+        <child type="ZmbM_PolicemanSpecForce_Heavy" spawnsecondary="false" x="-4.257380" y="2.853154" z="10.796047" a="0" />
+    </group>
+	
+<!-- ++ <( MapGroupProto.xml )> +++++++++++++++ -->
+
+    <group name="StaticObj_Misc_WoodenCrate_5x" lootmax="80" >
+     <usage name="Military" />             
+				<container name="lootFloor" lootmax="80">
+                        <category name="weapons" />
+						<category name="explosives" />
+						<category name="containers" />
+						<category name="clothes" />
+						<point pos="0.059926 5.902591 1.225610" range="0.5" height="1.5" flags="32" />
+<point pos="-0.540074 5.902591 1.225610" range="0.5" height="1.5" flags="32" />
+<point pos="-1.140075 5.902591 1.225610" range="0.5" height="1.5" flags="32" />
+<point pos="-1.240075 5.902591 0.325610" range="0.5" height="1.5" flags="32" />
+<point pos="-1.240075 5.902591 -0.674390" range="0.5" height="1.5" flags="32" />
+<point pos="-0.540074 5.902591 -1.274390" range="0.5" height="1.5" flags="32" />
+<point pos="1.059926 5.902591 0.725610" range="0.5" height="1.5" flags="32" />
+<point pos="1.059926 5.902591 -0.074390" range="0.5" height="1.5" flags="32" />
+<point pos="-0.540074 5.902591 -7.574385" range="0.5" height="1.5" flags="32" />
+<point pos="-2.140075 5.902591 -7.874385" range="0.5" height="1.5" flags="32" />
+<point pos="-3.140074 5.902591 -7.774385" range="0.5" height="1.5" flags="32" />
+<point pos="-4.340073 5.902591 -7.074386" range="0.5" height="1.5" flags="32" />
+<point pos="-5.640071 5.902591 -6.574386" range="0.5" height="1.5" flags="32" />
+<point pos="-5.940071 5.902591 -5.574387" range="0.5" height="1.5" flags="32" />
+<point pos="-6.440071 5.902591 -4.774388" range="0.5" height="1.5" flags="32" />
+<point pos="-7.040070 5.902591 -3.774389" range="0.5" height="1.5" flags="32" />
+<point pos="-7.440070 5.902591 -2.674390" range="0.5" height="1.5" flags="32" />
+<point pos="-7.740069 5.902591 -1.674390" range="0.5" height="1.5" flags="32" />
+<point pos="-8.040070 5.902591 -0.774390" range="0.5" height="1.5" flags="32" />
+<point pos="-8.040070 5.902591 0.325610" range="0.5" height="1.5" flags="32" />
+<point pos="-8.040070 5.902591 1.425610" range="0.5" height="1.5" flags="32" />
+<point pos="-7.740070 5.902591 2.725610" range="0.5" height="1.5" flags="32" />
+<point pos="-7.240070 5.902591 4.025609" range="0.5" height="1.5" flags="32" />
+<point pos="-6.340071 5.902591 5.125607" range="0.5" height="1.5" flags="32" />
+<point pos="-5.440072 5.902591 6.025607" range="0.5" height="1.5" flags="32" />
+<point pos="-4.040073 5.902591 7.025606" range="0.5" height="1.5" flags="32" />
+<point pos="-3.040074 5.902591 7.625605" range="0.5" height="1.5" flags="32" />
+<point pos="-1.940075 5.902591 7.925605" range="0.5" height="1.5" flags="32" />
+<point pos="-0.840075 5.902591 8.025605" range="0.5" height="1.5" flags="32" />
+<point pos="0.459925 5.902591 8.125606" range="0.5" height="1.5" flags="32" />
+<point pos="1.859925 5.902591 7.725605" range="0.5" height="1.5" flags="32" />
+<point pos="2.959924 5.902591 7.425606" range="0.5" height="1.5" flags="32" />
+<point pos="4.059924 5.902591 6.925606" range="0.5" height="1.5" flags="32" />
+<point pos="5.059923 5.902591 6.125607" range="0.5" height="1.5" flags="32" />
+<point pos="5.859922 5.902591 5.225608" range="0.5" height="1.5" flags="32" />
+<point pos="6.759921 5.902591 4.125609" range="0.5" height="1.5" flags="32" />
+<point pos="7.359921 5.902591 3.125610" range="0.5" height="1.5" flags="32" />
+<point pos="7.659921 5.902591 1.925611" range="0.5" height="1.5" flags="32" />
+<point pos="7.659920 5.902591 0.725611" range="0.5" height="1.5" flags="32" />
+<point pos="7.659921 5.902591 -0.374389" range="0.5" height="1.5" flags="32" />
+<point pos="7.259921 5.902591 -1.674390" range="0.5" height="1.5" flags="32" />
+<point pos="7.159921 5.902591 -3.074389" range="0.5" height="1.5" flags="32" />
+<point pos="6.159922 5.902591 -4.274388" range="0.5" height="1.5" flags="32" />
+<point pos="5.059923 5.902591 -5.674387" range="0.5" height="1.5" flags="32" />
+<point pos="3.959924 5.902591 -6.574386" range="0.5" height="1.5" flags="32" />
+<point pos="2.959925 5.902591 -7.074385" range="0.5" height="1.5" flags="32" />
+<point pos="1.759926 5.902591 -7.474385" range="0.5" height="1.5" flags="32" />
+<point pos="0.559926 5.902591 -7.574390" range="0.5" height="1.5" flags="32" />
+<point pos="-1.540075 5.902591 -8.474386" range="0.5" height="1.5" flags="32" />
+<point pos="-3.140074 5.902591 -8.774387" range="0.5" height="1.5" flags="32" />
+<point pos="-4.140073 5.902591 -8.674387" range="0.5" height="1.5" flags="32" />
+<point pos="-5.340072 5.902591 -7.974385" range="0.5" height="1.5" flags="32" />
+<point pos="-6.640070 5.902591 -7.474385" range="0.5" height="1.5" flags="32" />
+<point pos="-6.940070 5.902591 -6.474386" range="0.5" height="1.5" flags="32" />
+<point pos="-7.440070 5.902591 -5.674387" range="0.5" height="1.5" flags="32" />
+<point pos="-8.040070 5.902591 -4.674388" range="0.5" height="1.5" flags="32" />
+<point pos="-8.440071 5.902591 -3.574389" range="0.5" height="1.5" flags="32" />
+<point pos="-8.740072 5.902591 -2.574390" range="0.5" height="1.5" flags="32" />
+<point pos="-9.040073 5.902591 -1.674390" range="0.5" height="1.5" flags="32" />
+<point pos="-9.040073 5.902591 -0.574390" range="0.5" height="1.5" flags="32" />
+<point pos="-9.640076 5.902591 1.425610" range="0.5" height="1.5" flags="32" />
+<point pos="-9.340075 5.902591 2.725610" range="0.5" height="1.5" flags="32" />
+<point pos="-8.840073 5.902591 4.025609" range="0.5" height="1.5" flags="32" />
+<point pos="-7.940070 5.902591 5.125607" range="0.5" height="1.5" flags="32" />
+<point pos="-7.040071 5.902591 6.025607" range="0.5" height="1.5" flags="32" />
+<point pos="-5.640072 5.902591 7.025606" range="0.5" height="1.5" flags="32" />
+<point pos="-4.340073 5.902591 8.225606" range="0.5" height="1.5" flags="32" />
+<point pos="-3.286665 5.902591 8.661865" range="0.5" height="1.5" flags="32" />
+<point pos="-2.208047 5.902591 8.899717" range="0.5" height="1.5" flags="32" />
+<point pos="5.931015 5.902591 9.162788" range="0.5" height="1.5" flags="32" />
+<point pos="8.759923 5.902591 0.325611" range="0.5" height="1.5" flags="32" />
+<point pos="8.732108 5.902591 -1.234251" range="0.5" height="1.5" flags="32" />
+<point pos="8.520217 5.902591 -2.907928" range="0.5" height="1.5" flags="32" />
+<point pos="6.987994 5.902591 -5.336318" range="0.5" height="1.5" flags="32" />
+<point pos="6.014507 5.902591 -6.584473" range="0.5" height="1.5" flags="32" />
+<point pos="3.503788 5.902591 -8.151833" range="0.5" height="1.5" flags="32" />
+<point pos="2.679436 5.902591 -8.907106" range="0.5" height="1.5" flags="32" />
+<point pos="1.259926 5.902591 -8.774387" range="0.5" height="1.5" flags="32" />
+<point pos="0.059926 5.902591 -8.874393" range="0.5" height="1.5" flags="32" />
+<point pos="1.059925 5.902591 9.325610" range="0.5" height="1.5" flags="32" />
+<point pos="2.459925 5.902591 8.925609" range="0.5" height="1.5" flags="32" />
+<point pos="3.559924 5.902591 8.625607" range="0.5" height="1.5" flags="32" />
+<point pos="4.659923 5.902591 8.125606" range="0.5" height="1.5" flags="32" />
+<point pos="5.659922 5.902591 7.325606" range="0.5" height="1.5" flags="32" />
+<point pos="6.459921 5.902591 6.425607" range="0.5" height="1.5" flags="32" />
+<point pos="7.359921 5.902591 5.325608" range="0.5" height="1.5" flags="32" />
+<point pos="7.959920 5.902591 4.325609" range="0.5" height="1.5" flags="32" />
+<point pos="8.259921 5.902591 3.125610" range="0.5" height="1.5" flags="32" />
+<point pos="8.259921 5.902591 1.925611" range="0.5" height="1.5" flags="32" />
+				</container> 
+
+     <!-- the lines below can trigger multiple contaminated areas of 20m around the airdrop on your set chance
+        the contaminated areas will despawn with loot -->
+        
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="43.356445 1.966736 -75.346680" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-107.850586 1.966736 6.432617" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="48.237304 1.966736 63.608398" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-86.434571 1.966736 -1.834961" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="24.530273 1.966736 2.448242" rpy="-0.000000 21.036320 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="59.094726 1.966736 -34.706055" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-65.317383 1.966736 -9.903320" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="45.946289 1.966736 -5.819336" rpy="-0.000000 21.036318 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="14.270507 1.966736 -87.897461" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="67.063476 1.966736 -13.887695" rpy="-0.000000 21.036318 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-94.403321 1.966736 -22.653320" rpy="-0.000000 21.036308 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-92.112305 1.966736 47.073242" rpy="-0.000000 21.036318 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="88.479492 1.966736 -22.155273" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-25.872071 1.966736 91.897461" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="80.510742 1.966736 -41.973633" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="69.653320 1.966736 55.340820" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="16.561523 1.966736 -18.370117" rpy="-0.000000 21.036318 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-4.456055 1.966736 83.629883" rpy="-0.000000 21.036308 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="37.977539 1.966736 -26.637695" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="22.139648 1.966736 73.569336" rpy="-0.000000 21.036306 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-59.838868 1.966736 -59.608398" rpy="-0.000000 21.036306 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-33.243164 1.966736 -69.668945" rpy="-0.000000 21.036304 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="40.467773 1.966736 43.487305" rpy="-0.000000 21.036318 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-7.145508 1.966736 -79.629883" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-70.696289 1.966736 38.805664" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-49.579102 1.966736 30.737305" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-43.901368 1.966736 -18.170898" rpy="-0.000000 21.036308 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="61.883789 1.966736 35.219727" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-28.163086 1.966736 22.469727" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="83.000976 1.966736 27.151367" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-100.081055 1.966736 26.254883" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-84.143555 1.966736 67.293945" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="14.370117 1.966736 53.448242" rpy="-0.000000 21.036308 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="32.499023 1.966736 22.668945" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-78.665039 1.966736 17.987305" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="53.915039 1.966736 14.401367" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-57.547852 1.966736 9.918945" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="6.401367 1.966736 32.629883" rpy="-0.000000 21.036306 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="75.032226 1.966736 6.333008" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-36.131836 1.966736 1.651367" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="96.448242 1.966736 -1.934570" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-54.758789 1.966736 79.844727" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-73.286133 1.966736 -30.721680" rpy="-0.000000 21.036308 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="8.791992 1.966736 -38.192383" rpy="-0.000000 21.036316 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-33.641602 1.966736 71.776367" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="30.208007 1.966736 -46.459961" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-17.305664 1.966736 -28.231445" rpy="-0.000000 21.036306 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-12.225586 1.966736 63.508789" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="51.325195 1.966736 -54.528320" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-51.870118 1.966736 -38.989258" rpy="-0.000000 21.036306 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="72.741211 1.966736 -62.795898" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-62.727539 1.966736 59.026367" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="0.823242 1.966736 -59.010742" rpy="-0.000000 21.036312 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-41.610352 1.966736 50.958008" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-25.274414 1.966736 -49.049805" rpy="-0.000000 21.036304 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-81.254883 1.966736 -51.340820" rpy="-0.000000 21.036308 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="22.239257 1.966736 -67.278320" rpy="-0.000000 21.036310 -0.000000" dechance="0.5" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="ContaminatedArea_Local" pos="-20.194336 1.966736 42.690430" rpy="-0.000000 21.036308 -0.000000" dechance="0.5" />
+      </dispatch>
+      
+      <dispatch dechance="1.000000">
+      <proxy type="Bonfire" pos="-0.225061 -4.038085 0.489811" rpy="-80 0.0 0.0" dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="StaticObj_ammoboxes_stacked" pos="1.952221 -0.200517 4.115153" rpy="0.000000 -146.010742 0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="NBCPantsYellow" pos="1.568249 0.543483 4.570536" rpy="0.000000 0.000000 0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="NBCHoodYellow" pos="1.896374 0.551280 3.976543" rpy="0.000000 0.000000 0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="NBCGlovesYellow" pos="1.985241 0.556880 4.947489" rpy="0.000000 0.000000 0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="NBCBootsYellow" pos="1.816540 0.527808 3.389935" rpy="-0.000000 0.000000 -0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="NBCJacketYellow" pos="2.436290 0.675281 3.810529" rpy="0.000000 0.000000 0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="AntiChemInjector" pos="1.636242 0.566882 4.226542" rpy="90 0.0 0.0"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="AirborneMask" pos="1.291270 0.538680 4.308512" rpy="0.000000 0.000000 0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="GasMask_Filter" pos="1.052439 0.558765 3.964885" rpy="-0.000000 0.000000 -0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="GasMask_Filter" pos="1.182261 0.558780 3.754498" rpy="0.000000 0.000000 0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="GasMask_Filter" pos="2.481944 0.558780 4.554301" rpy="0.000000 0.000000 0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="AirborneMask" pos="2.890868 0.538679 4.308512" rpy="0.000000 0.000000 0.000000"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="AntiChemInjector" pos="1.536266 0.566882 4.026591" rpy="90 0.0 0.0"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="AntiChemInjector" pos="2.136119 0.566882 3.126813" rpy="90 0.0 0.0"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="BandageDressing" pos="1.744335 0.564380 5.138468" rpy="-90 0.0 0.0"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="BandageDressing" pos="2.244212 0.564380 4.238688" rpy="-90 0.0 0.0"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.0" >  
+      <proxy type="BandageDressing" pos="1.444408 0.564380 3.538861" rpy="-90 0.0 0.0"  dechance="1.0" />
+      </dispatch>
+      <dispatch dechance="1.000000">
+        <proxy type="M4A1_Green" pos="-0.225061 0.336823 -0.690365" rpy="90 -450 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="AKM" pos="-0.144007 0.735748 -0.579525" rpy="0.0 92.999992 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="SVD" pos="-0.146936 0.684845 0.242252" rpy="0.0 92.999992 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="FAL" pos="-0.024867 0.448792 0.250065" rpy="0.0 92.999992 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="M79" pos="0.755407 0.895813 -0.170345" rpy="0.0 2.999999 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="PlateCarrierVest_Black" pos="-0.324671 0.938812 -0.207943" rpy="0.0 -5.999996 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="PlateCarrierVest_Green" pos="0.575784 0.930809 -0.270140" rpy="0.0 -5.999999 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="PlateCarrierVest_Camo" pos="0.114781 0.930817 -0.237240" rpy="0.0 -5.999996 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Mag_AKM_Drum_TEST" pos="-0.505335 0.614807 -0.531674" rpy="0.0 -173.999954 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Mag_AKM_Drum75Rnd_Green" pos="-0.303186 0.617798 -0.560970" rpy="0.0 -173.999954 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Mag_STANAG_60Rnd" pos="0.155797 0.656799 -0.549740" rpy="0.0 92.999992 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Mag_STANAG_60Rnd" pos="0.294469 0.656799 -0.549740" rpy="0.0 92.999992 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="KazuarOptic" pos="-0.805139 0.493805 0.189029" rpy="0.0 -90.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="StarlightOptic" pos="0.536657 0.481812 -0.750912" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="GhillieHood_Mossy" pos="-0.517053 0.665863 -0.134213" rpy="-90 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="GhillieHood_Woodland" pos="-0.627405 0.085999 0.218326" rpy="-90 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="GhillieSuit_Woodland" pos="-0.707483 -0.048034 -0.280209" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="GhillieSuit_Mossy" pos="-0.725061 -0.068207 -0.610287" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Ammo_40mm_Explosive" pos="0.441930 0.949188 0.047428" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Ammo_40mm_ChemGas" pos="0.433141 0.956940 0.164127" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Ammo_40mm_Smoke_Red" pos="0.533727 0.949188 0.033268" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Ammo_40mm_Smoke_Green" pos="0.533727 0.948792 0.150455" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Ammo_40mm_Smoke_White" pos="0.645055 0.949188 0.030826" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Ammo_40mm_Smoke_Black" pos="0.628453 0.949188 0.156315" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Ammo_40mm_ChemGas" pos="0.338414 0.956818 0.179264" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Ammo_40mm_Explosive" pos="0.318883 0.948792 0.049869" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="RGD5Grenade" pos="0.088414 0.968903 0.057682" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="M67Grenade" pos="0.087438 0.967621 0.187076" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="FlashGrenade" pos="-0.081508 0.991516 0.201236" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="M18SmokeGrenade_Purple" pos="-0.215296 1.011810 0.077213" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="M18SmokeGrenade_Yellow" pos="-0.215296 1.011841 0.194400" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="M18SmokeGrenade_Green" pos="-0.390100 1.011810 0.080631" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="M18SmokeGrenade_Red" pos="-0.381311 1.011810 0.200260" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Grenade_ChemGas" pos="-0.090296 0.983307 0.074772" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Grenade_ChemGas" pos="-0.488733 0.983307 0.174869" rpy="-0.0 0.0 -0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Aug" pos="0.774938 0.637818 -0.240170" rpy="0.0 3.999999 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="AugShort" pos="0.774938 0.389801 -0.140072" rpy="0.0 3.999999 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="AK74_Black" pos="-0.324671 0.112793 -0.869076" rpy="0.0 90.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="AK101_Green" pos="-0.424280 -0.167206 -0.850033" rpy="0.0 90.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="ClaymoreMine" pos="-0.624475 0.296814 0.649966" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="LandMineTrap" pos="-0.624475 0.307801 0.359928" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="LandMineTrap" pos="-0.463342 0.307801 0.345768" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Plastic_Explosive" pos="-0.459436 0.342835 0.637759" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Mosin9130_Black" pos="0.714391 0.073792 -0.430111" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Winchester70_Black" pos="0.714391 -0.071197 -0.440365" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="B95_Black" pos="0.712438 -0.208191 -0.420345" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="EasterEgg" pos="-0.225061 0.288819 0.365299" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="EasterEgg" pos="-0.342249 0.288819 0.369693" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="AliceBag_Black" pos="-0.414781 -0.255216 1.056520" rpy="0.0 90.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="FangeKnife" pos="-0.909380 0.239120 0.615291" rpy="90 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Sword" pos="-0.935660 0.329738 -0.013100" rpy="90 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Mich2001Helmet" pos="-0.956813 0.267511 0.002084" rpy="-90 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="GorkaHelmet_Black" pos="-0.809280 0.103590 0.618470" rpy="-70 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="NVGHeadstrap" pos="-0.298449 0.295147 0.576061" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="NVGoggles" pos="-0.283789 0.312054 0.721434" rpy="180 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="NVGoggles" pos="-0.403789 0.312054 0.721434" rpy="180 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Battery9V" pos="-0.157727 0.331122 0.632808" rpy="90 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Battery9V" pos="-0.147727 0.331122 0.682808" rpy="90 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="Battery9V" pos="-0.147727 0.331122 0.742808" rpy="90 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="M65Jacket_Black" pos="0.362397 -0.153584 0.795560" rpy="-360 0.0 90" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="CargoPants_Black" pos="0.476654 0.301414 0.533255" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="BalaclavaMask_Blackskull" pos="0.005237 0.296030 0.556580" rpy="95 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="TacticalGloves_Black" pos="0.011405 0.291066 0.692492" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="MilitaryBoots_Black" pos="-0.416553 0.319790 0.985631" rpy="0.0 0.0 0.0" dechance="1.0" />
+      </dispatch>
+        <dispatch dechance="1.000000">
+        <proxy type="PunchedCard" pos="-0.714159 0.321499 0.453438" rpy="90 0.0 0.0" dechance="1.0" />
+      </dispatch>
+</group>
